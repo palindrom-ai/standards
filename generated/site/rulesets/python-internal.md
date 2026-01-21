@@ -1,8 +1,14 @@
+---
+title: "Python Internal"
+layout: default
+parent: Rulesets
+---
+
 <!-- AUTO-GENERATED — DO NOT EDIT -->
-<!-- Ruleset: python-production.toml -->
+<!-- Ruleset: python-internal.toml -->
 <!-- Run "pnpm generate" to update -->
 
-# Python Production
+# Python Internal
 
 ## Code
 
@@ -12,7 +18,8 @@
 
 #### Lint
 
-- **select**: `E`, `F`, `I`, `UP`, `B`, `S`, `C4`, `RUF`
+- **select**: `E`, `F`, `I`, `UP`, `B`, `SIM`
+- **ignore**: `E501`
 
 ### Types
 
@@ -23,15 +30,5 @@
 ### Unused
 
 #### Vulture
-
-- **enabled**: `true`
-
-### Security
-
-#### Secrets
-
-- **enabled**: `true`
-
-#### Pipaudit
 
 - **enabled**: `true`

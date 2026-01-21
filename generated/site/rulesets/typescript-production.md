@@ -1,8 +1,14 @@
+---
+title: "Typescript Production"
+layout: default
+parent: Rulesets
+---
+
 <!-- AUTO-GENERATED — DO NOT EDIT -->
-<!-- Ruleset: typescript-internal.toml -->
+<!-- Ruleset: typescript-production.toml -->
 <!-- Run "pnpm generate" to update -->
 
-# Typescript Internal
+# Typescript Production
 
 ## Code
 
@@ -29,10 +35,19 @@
 | `array-callback-return` | `error` |
 | `no-template-curly-in-string` | `error` |
 | `consistent-return` | `error` |
-| `import/no-cycle` | { severity: error, maxDepth: 2 } |
+| `import/no-cycle` | { severity: error, maxDepth: 10 } |
 | `@typescript-eslint/no-unused-vars` | `error` |
 | `@typescript-eslint/no-explicit-any` | `error` |
 | `@typescript-eslint/no-non-null-assertion` | `error` |
+| `@typescript-eslint/no-unnecessary-condition` | `error` |
+| `@typescript-eslint/no-unsafe-assignment` | `error` |
+| `@typescript-eslint/no-unsafe-call` | `error` |
+| `@typescript-eslint/no-unsafe-member-access` | `error` |
+| `@typescript-eslint/no-unsafe-return` | `error` |
+| `@typescript-eslint/no-floating-promises` | `error` |
+| `@typescript-eslint/no-misused-promises` | `error` |
+| `@typescript-eslint/await-thenable` | `error` |
+| `@typescript-eslint/switch-exhaustiveness-check` | `error` |
 
 ### Formatting
 
@@ -78,3 +93,9 @@
 
 - **enabled**: `true`
 - **rules**: `[object Object]`
+
+### Quality
+
+#### Disable Comments
+
+- **enabled**: `true`

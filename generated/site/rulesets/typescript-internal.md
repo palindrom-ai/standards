@@ -1,3 +1,9 @@
+---
+title: "Typescript Internal"
+layout: default
+parent: Rulesets
+---
+
 <!-- AUTO-GENERATED — DO NOT EDIT -->
 <!-- Ruleset: typescript-internal.toml -->
 <!-- Run "pnpm generate" to update -->
