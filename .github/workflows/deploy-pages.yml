@@ -44,13 +44,11 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
-      - name: Install Jekyll
-        run: gem install jekyll bundler jekyll-remote-theme
-
       - name: Build Jekyll site
         run: |
           cd generated/site
-          jekyll build --destination _site
+          bundle install
+          bundle exec jekyll build --destination _site
         env:
           JEKYLL_ENV: production
 
