@@ -1,4 +1,4 @@
-# Typescript Internal
+# Typescript Frontend Internal
 
 <!-- AUTO-GENERATED — DO NOT EDIT -->
 <!-- Run "pnpm generate" to update -->
@@ -15,8 +15,8 @@
 |------|--------|
 | `max-depth` | { severity: error, max: 4 } |
 | `max-params` | { severity: error, max: 4 } |
-| `max-lines-per-function` | `error` |
-| `max-lines` | { severity: error, max: 400 } |
+| `max-lines-per-function` | { severity: error, max: 100 } |
+| `max-lines` | { severity: error, max: 500 } |
 | `complexity` | `error` |
 | `no-console` | { severity: error, allow: error,warn } |
 | `eqeqeq` | `error` |
@@ -27,10 +27,11 @@
 | `array-callback-return` | `error` |
 | `no-template-curly-in-string` | `error` |
 | `consistent-return` | `error` |
-| `import/no-cycle` | { severity: error, maxDepth: 2 } |
+| `import/no-cycle` | `off` |
 | `@typescript-eslint/no-unused-vars` | { severity: error, argsIgnorePattern: ^_, varsIgnorePattern: ^_ } |
 | `@typescript-eslint/no-explicit-any` | `error` |
 | `@typescript-eslint/no-non-null-assertion` | `error` |
+| `@typescript-eslint/no-empty-object-type` | `off` |
 
 ### Types
 
@@ -69,4 +70,4 @@
 ### Naming
 
 - **enabled**: `true`
-- **rules**: `[object Object]`
+- **rules**: `[object Object]`, `[object Object]`
